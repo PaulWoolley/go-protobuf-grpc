@@ -52,7 +52,7 @@
 		"default_properties": [
 			{
 				"name": "gr.mend.sast_scan.enable",
-				"value": "false",
+				"value": true,
 				"type": "boolean"
 			}
 		],
