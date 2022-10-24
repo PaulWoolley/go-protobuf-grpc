@@ -35,6 +35,14 @@
 				"tasks": [
 					{
 						"name": "go-protobuf-grpc",
+						"steps": [
+							{
+								"name": "foo",
+								"definition": "foo",
+								"command": "go version",
+								"properties": null
+							}
+						],
 						"docker_options": {}
 					}
 				]
