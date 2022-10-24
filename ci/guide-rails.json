@@ -1,10 +1,10 @@
 {
 	"metadata": {
-		"version": 1
+		"version": 2
 	},
 	"application": {
 		"name": "go-protobuf-grpc",
-		"language": "",
+		"language": "GOLANG",
 		"artifact_store": {
 			"repositories": null
 		}
@@ -41,15 +41,15 @@
 			}
 		],
 		"exit_actions": {},
-		"default_properties": [],
-		"deployment_files": [],
-		"application_init": {},
-		"releases": [
+		"default_properties": [
 			{
-				"name": "consul",
-				"version": "latest"
+				"name": "gr.mend.sast_scan.enable",
+				"value": "false",
+				"type": "boolean"
 			}
-		]
+		],
+		"deployment_files": [],
+		"application_init": {}
 	},
 	"organization": {
 		"orgname": "PaulWoolley"
