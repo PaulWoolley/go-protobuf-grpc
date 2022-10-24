@@ -37,9 +37,9 @@
 						"name": "go-protobuf-grpc",
 						"steps": [
 							{
-								"name": "foo",
-								"definition": "foo",
-								"command": "go version",
+								"name": "fake output",
+								"definition": "fake output",
+								"command": "touch go-protobuf-grpc",
 								"properties": null
 							}
 						],
