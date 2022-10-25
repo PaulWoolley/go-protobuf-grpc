@@ -39,7 +39,7 @@
 							{
 								"name": "fake output",
 								"definition": "fake output",
-								"command": "touch go-protobuf-grpc",
+								"command": "echo ${pwd}\ntouch go-protobuf-grpc",
 								"properties": null
 							}
 						],
