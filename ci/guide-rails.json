@@ -49,13 +49,7 @@
 			}
 		],
 		"exit_actions": {},
-		"default_properties": [
-			{
-				"name": "gr.mend.sast_scan.enable",
-				"value": true,
-				"type": "boolean"
-			}
-		],
+		"default_properties": [],
 		"deployment_files": [],
 		"application_init": {}
 	},
